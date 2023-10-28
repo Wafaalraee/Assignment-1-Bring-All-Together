@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Caffee Ipsum Wafa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bring all together</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><Menu></Menu></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">account</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+       
+        </form>
+        <button type="button" class="btn btn-light">Log in</button>
+        <button type="button" class="btn btn-danger">Sign up</button>
+      </div>
+    </div>
+  </nav>
+  <Header id="main-header">
+    <h1>Welcome To Wafa's Caffee</h1>
+	</Header>
+				
+<!-- Paragraph -->
+	  <p>
+	  	Welcome to the coffee break. Here you will find <a href="http://google.com" target="_blank">
+        cold and hot drinks</a> that <strong><span style="color:red">
+          can change your mood for the better.</span></strong>
+	  </p>
+	  <a href="post.html">Read More</a>
+	  <br>
+	  <!-- Image --> 
+	  <a href="images/coffee1.jpeg">
+	  <img  id="imag" src="images/coffee1.jpeg" alt="My Sample Image">
+	  </a><br><br>
+	 
+<div>
+     <button type="button" class="btn btn-danger"><h4>menu</h4></button>
+     <div class="input-group mb-3">
+      <select class="form-select" id="inputGroupSelect01">
+        <option selected> choice your menu</option>
+        <option value="1">espresso 2$</option>
+        <option value="2">americano2$ $</option>
+        <option value="3">extra suger 0.50 $</option>
+        <option value="2">extra milk 0.90 $</option>
+      </select>
+     </div>
+ <br><br><br>
+ 
+ <button type="button" class="btn btn-danger"><h4>Contact&reservation</h4></button><br><br>
+ <p>Do you have a question, or would you like to reserve a table for a high tea, for example?
+Please complete the form below.We will contact you as soon as possible.</p>
+     <!-- forms -->
+<form action="process.php"method="POST">
+  <form class="row g-3">
+    <div class="col-md-4">
+      <label for="validationDefault01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationDefault01" value="" required="" fdprocessedid="f44cf">
+    </div>
+    <div class="col-md-4">
+      <label for="validationDefault02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationDefault02" value="" required="" fdprocessedid="o1tfm">
+    </div>
+    <div class="col-md-4">
+      <label for="validationDefaultUsername" class="form-label">Username</label>
+      <div class="input-group">
+        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+        <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required="" fdprocessedid="xe3xn">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationDefault03" class="form-label">City</label>
+      <input type="text" class="form-control" id="validationDefault03" required="" fdprocessedid="q4ej03">
+    </div>
+    <div class="col-md-3">
+      <label for="validationDefault04" class="form-label">State</label>
+      <select class="form-select" id="validationDefault04" required="" fdprocessedid="c4f7na">
+        <option selected="" disabled="" value="">Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label for="validationDefault05" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="validationDefault05" required="" fdprocessedid="nr88o">
+    </div>
+  </form>
+    <br>
+ <div>
+     <div class="input-group mb-3">
+      <select class="form-select" id="inputGroupSelect01">
+        <option selected> Make a choice</option>
+        <option value="1">I have a question</option>
+        <option value="2">I would like to reserve</option>
+      </select>
+     </div>
+     <br>
+     <br> 
+     <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required="">
+        <label class="form-check-label" for="invalidCheck2">
+          Agree to terms and conditions
+        </label>
+      </div>
+    </div>
+    <button  id="button" type="button" class="btn btn-danger"onclick="handleClick(this)">Click</button>
+   </form>
+   <br><br>
+   <button type="button" class="btn btn-danger"><h4>opening hours </h4></button>
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">Monday:closed</li>
+        <li class="list-group-item list-group-item-secondary">Tuesday:from 12:00pm to 11:00pm</li>
+        <li class="list-group-item list-group-item-success">Wednesday:from 12:00pm to 11:00pm</li>
+        <li class="list-group-item list-group-item-danger">Thursday:from 12:00pm to 11:00pm</li>
+        <li class="list-group-item list-group-item-warning">Friday:from 12:00pm to 11:00pm</li>
+        <li class="list-group-item list-group-item-info">Saturday:from 12:00pm to 11:00pm</li>
+        <li class="list-group-item list-group-item-light">Sunday:from 12:00pm to 11:00pm</li>
+      </ul>
+	  	<br>
+      <button type="button" class="btn btn-danger"><h4>Our branches </h4></button>
+       <ul id="branches"class="list-group">
+       </ul>
+       <br>
+       <button type="button" class="btn btn-danger"><h4>Contact us </h4></button>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Phone number</th>
+            <th scope="col">Email</th>
+            <th scope="col">Follow up on instagram</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">00000000</th>
+            <td>wafa@gamil.com</td>
+            <td><a href="images/instagram.jpeg">
+              <img src="images/instagram.jpeg" alt="My Sample Image" width="30">
+              </a></td>
+          </tr></table>
+ <br>
+ <br> 
+
+ <footer id="main-footer">
+ 	<h3>every sip makes you happy, every bite takes you home</h3>
+  <br>
+	<p>Copyright&copy; 2007, My website</p>	
+</footer>
+<script src="./js.js"></script>
+</body>
+</html>
